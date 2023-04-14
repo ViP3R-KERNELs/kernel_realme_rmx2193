@@ -1,3 +1,4 @@
+ccflags-y += -Wno-error=strict-prototypes
 ifeq ($(CONFIG_OPLUS_CHARGER_MTK),y)
 
 	ifeq ($(CONFIG_MTK_HAFG_20),y)

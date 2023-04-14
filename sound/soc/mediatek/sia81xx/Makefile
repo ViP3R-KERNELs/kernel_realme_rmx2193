@@ -1,5 +1,5 @@
 # SIA81xx PA object
-
+ccflags-y += -Wno-error=strict-prototypes
 COMPILE_TO_MODULE = n
 EN_SIA81XX_TUNING = y
 TUNING_PLATFORM = mtk
