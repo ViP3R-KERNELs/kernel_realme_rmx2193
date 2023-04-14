@@ -14,6 +14,7 @@
 # BTIF driver for AD DIE
 # If KERNELRELEASE is defined, we've been invoked from the
 # kernel build system and can use its language.
+ccflags-y += -Wno-error=unused-but-set-variable
 ifneq ($(KERNELRELEASE),)
 	ccflags-y += -I$(src)/inc
 	ccflags-y += -I$(src)/plat_inc

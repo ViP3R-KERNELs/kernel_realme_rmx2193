@@ -10,7 +10,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
-
+ccflags-y += -Wno-error=unused-but-set-variable
 ifeq (y, $(filter y, $(CONFIG_MACH_MT6761)))
 MTK_KPD_PLATFORM:=mt6765
 else

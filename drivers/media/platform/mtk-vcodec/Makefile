@@ -1,3 +1,4 @@
+ccflags-y += -Wno-error=unused-but-set-variable
 ifeq (y, $(filter y, $(CONFIG_MACH_MT6893)))
 MTK_PLATFORM := mt6885
 endif

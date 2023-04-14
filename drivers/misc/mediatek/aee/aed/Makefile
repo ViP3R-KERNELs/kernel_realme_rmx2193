@@ -10,7 +10,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
-
+ccflags-y += -Wno-error=unused-but-set-variable
 subdir-ccflags-y += -Idrivers/misc/mediatek/aee/mrdump/
 subdir-ccflags-y += -Idrivers/misc/mediatek/log_store/
 

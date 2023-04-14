@@ -11,7 +11,7 @@
 # GNU General Public License for more details.
 #
 
-
+ccflags-y += -Wno-error=unused-but-set-variable
 ifeq ($(CONFIG_MTK_ECCCI_C2K), y)
 
 #ccflags-y += -DC2K_USB_UT

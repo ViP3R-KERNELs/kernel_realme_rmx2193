@@ -1,3 +1,4 @@
+ccflags-y += -Wno-error=unused-but-set-variable
 subdir-ccflags-y += -Wall -Werror
 obj-$(CONFIG_DUAL_ROLE_USB_INTF)	+= tcpci_dual_role.o
 obj-$(CONFIG_TCPC_MT6360)		+= tcpc_mt6360.o

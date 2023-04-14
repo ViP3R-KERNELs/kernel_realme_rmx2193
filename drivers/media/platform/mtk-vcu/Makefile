@@ -1,3 +1,4 @@
+ccflags-y += -Wno-error=unused-but-set-variable
 subdir-ccflags-y += -Werror
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/smi
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/cmdq

@@ -1,3 +1,4 @@
+ccflags-y += -Wno-error=unused-but-set-variable
 subdir-ccflags-y += -Wall -Werror
 ifeq ($(CONFIG_MTK_GAUGE_VERSION),30)
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/typec/tcpc/inc
